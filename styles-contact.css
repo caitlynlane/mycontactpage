@@ -71,10 +71,10 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 600px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(193, 224, 238, 0.7); /*this uses opacity of 50% for the background color*/
+ 	background: rgba(193, 224, 238, 0.5); /*this uses opacity of 50% for the background color*/
 	text-align: center;
 
 }
@@ -82,10 +82,11 @@ html, body {
 
 h1 {
 	font-family: Playfair Display, serif;
-	font-size: 2em;
+	font-size: 3.5em;
     margin: 0px auto 10px auto;
-    color: #35358d;
-	margin-top: 30px;
+    color: #ffffff;
+	margin-top: 15px; /* this is for spacing on the top*/
+	margin-bottom: 15px; /* this is for spacing on the bottom*/
 }
 
 h2 {
@@ -103,11 +104,11 @@ p {
 	font-size: 1.2em;
     line-height: 1.6;
 	letter-spacing: .1em;
-    color: #35358d;
+    color: #ffffff;
 }
 nav{
 	font-family: Playfair Display, sans-serif;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	width: 80%; /* this is for responsiveness */
 	margin: 0 auto;
 	border-width: 3px 0;
@@ -125,7 +126,7 @@ nav a{
 }
 
 a{
-	color: #35358d;
+	color: #23657c;
 	text-decoration: none;
 }
 
